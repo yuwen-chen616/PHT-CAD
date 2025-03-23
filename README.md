@@ -11,4 +11,6 @@ You can view our paper through the following link: [Paper](https://arxiv.org/abs
 
 ## ParaCAD benchmark
 
+![Some samples of ParaCAD](images/phtcadsample.png)
+
 We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the annotation layer. ParaCAD includes 10.26 million annotated engineering drawings for training and 3,000 real-world industrial drawings for test. The samples for test exhibit higher topological complexity and adhere to physical constraints. The dataset can be accessed here: [Dataset](https://www.modelscope.cn/datasets/yuwenbonnie/ParaCAD-Dataset/summary)
