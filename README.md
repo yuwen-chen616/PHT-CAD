@@ -50,3 +50,16 @@ We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the
 | METHODS          | Acc↑  | ParamMSE↓ | ImgMSE↓ | CD↓   | CF1↑  | PF1↑  |
 |------------------|-------|-----------|---------|-------|-------|-------|
 | PHT-CAD          | **0.840** | **50**    | **0.002** | —    | **0.860** | **0.910** |
+
+
+## Citation
+
+If you find this project useful, please consider citing our work:
+
+```bibtex
+@article{niu2025chatreid,
+  title={ChatReID: Open-ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models},
+  author={Niu, Ke and Yu, Haiyang and Zhao, Mengyang and Fu, Teng and Yi, Siyang and Lu, Wei and Li, Bin and Qian, Xuelin and Xue, Xiangyang},
+  journal={arXiv preprint arXiv:2502.19958},
+  year={2025}
+}
