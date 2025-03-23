@@ -18,9 +18,12 @@ We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the
 
 ## Performance
 
-| Model       | Release Date | Max Length | System Prompt Enhancement | # of Pretrained Tokens | Minimum GPU Memory Usage of Finetuning (Q-Lora) | Minimum GPU Usage of Generating 2048 Tokens (Int4) | Tool Usage |
-|-------------|--------------|------------|---------------------------|------------------------|-------------------------------------------------|----------------------------------------------------|------------|
-| Qwen-1.8B   | 23.11.30     | 32K        | ✅                         | 2.2T                   | 5.8GB                                           | 2.9GB                                              | ✅          |
-| Qwen-7B     | 23.08.03     | 32K        | ❌                         | 2.4T                   | 11.5GB                                          | 8.2GB                                              | ✅          |
-| Qwen-14B    | 23.09.25     | 8K         | ❌                         | 3.0T                   | 18.7GB                                          | 13.0GB                                             | ✅          |
-| Qwen-72B    | 23.11.30     | 32K        | ✅                         | 3.0T                   | 61.4GB                                          | 48.9GB                                             | ✅          |
+| METHODS          | Precise Sketch Images | Hand-drawn Sketch Images |
+|------------------|-----------------------|--------------------------|
+|                  | Acc↑  | ParamMSE↓ | ImgMSE↓ | CD↓ | CF1↑ | PF1↑ | Acc↑ | ParamMSE↓ | ImgMSE↓ | CD↓ | CF1↑ | PF1↑ |
+| ResNet34 [5]     | 0.465 | 908       | 0.199   | 5.883 | —    | —    | 0.396 | 1048      | 0.240   | 6.908 | —    | —    |
+| PpaCAD [14]      | 0.524 | 589       | 0.195   | 5.097 | —    | —    | 0.464 | 744       | 0.244   | 6.904 | —    | —    |
+| Vitruvion [12]   | 0.537 | 624       | 0.186   | 4.901 | 0.238| 0.706| 0.461 | 685       | 0.237   | 5.258 | —    | —    |
+| PICASSO [7]      | 0.751 | 281       | 0.075   | 0.729 | —    | —    | 0.658 | 365       | 0.117   | 1.090 | —    | —    |
+| PHT-CAD (w/o hand) | **0.859** | **52**    | **0.003** | —    | **0.868** | **0.917** | —    | —    | —    | —    | —    | —    |
+| PHT-CAD          | **0.811** | **55**    | **0.004** | **0.008** | **0.784** | **0.879** | **0.795** | **11**    | **0.005** | **0.010** | **0.7618** | **0.8665** |
