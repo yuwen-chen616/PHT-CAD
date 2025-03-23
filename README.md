@@ -27,3 +27,14 @@ We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the
 | PICASSO [7]      | 0.751 | 281       | 0.075   | 0.729 | —     | —     |
 | PHT-CAD (w/o hand) | **0.859** | **52**    | **0.003** | —    | **0.868** | **0.917** |
 | PHT-CAD          | **0.811** | **55**    | **0.004** | **0.008** | **0.784** | **0.879** |
+
+**Table 2:** Comparison of PHT-CAD with SOTA methods in standard evaluation paradigm in Hand-drawn Sketch Images. 
+| METHODS          | Acc↑  | ParamMSE↓ | ImgMSE↓ | CD↓   | CF1↑  | PF1↑  |
+|------------------|-------|-----------|---------|-------|-------|-------|
+| ResNet34 [5]     | 0.396 | 1048      | 0.240   | 6.908 | —    | —    |
+| PpaCAD [14]      | 0.464 | 744       | 0.244   | 6.904 | —    | —    |
+| Vitruvion [12]   | 0.461 | 685       | 0.237   | 5.258 | —    | —    |
+| PICASSO [7]      | 0.658 | 365       | 0.117   | 1.090 | —    | —    |
+| PHT-CAD          | **0.795** | **11**    | **0.005** | **0.010** | **0.7618** | **0.8665** |
+
+
