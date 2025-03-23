@@ -14,3 +14,13 @@ You can view our paper through the following link: [Paper](https://arxiv.org/abs
 ![Some samples of ParaCAD](images/phtcadsample.png)
 
 We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the annotation layer. ParaCAD includes 10.26 million annotated engineering drawings for training and 3,000 real-world industrial drawings for test. The samples for test exhibit higher topological complexity and adhere to physical constraints. The dataset can be accessed here: [Dataset](https://www.modelscope.cn/datasets/yuwenbonnie/ParaCAD-Dataset/summary)
+
+
+## Performance
+
+| Model       | Release Date | Max Length | System Prompt Enhancement | # of Pretrained Tokens | Minimum GPU Memory Usage of Finetuning (Q-Lora) | Minimum GPU Usage of Generating 2048 Tokens (Int4) | Tool Usage |
+|-------------|--------------|------------|---------------------------|------------------------|-------------------------------------------------|----------------------------------------------------|------------|
+| Qwen-1.8B   | 23.11.30     | 32K        | ✅                         | 2.2T                   | 5.8GB                                           | 2.9GB                                              | ✅          |
+| Qwen-7B     | 23.08.03     | 32K        | ❌                         | 2.4T                   | 11.5GB                                          | 8.2GB                                              | ✅          |
+| Qwen-14B    | 23.09.25     | 8K         | ❌                         | 3.0T                   | 18.7GB                                          | 13.0GB                                             | ✅          |
+| Qwen-72B    | 23.11.30     | 32K        | ✅                         | 3.0T                   | 61.4GB                                          | 48.9GB                                             | ✅          |
