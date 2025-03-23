@@ -37,4 +37,11 @@ We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the
 | PICASSO [7]      | 0.658 | 365       | 0.117   | 1.090 | —    | —    |
 | PHT-CAD          | **0.795** | **11**    | **0.005** | **0.010** | **0.7618** | **0.8665** |
 
-
+**Table 3:** Comparison of PHT-CAD with SOTA methods in zero-shot evaluation paradigm.
+| METHODS          | Acc↑  | ParamMSE↓ | ImgMSE↓ | CD↓   | CF1↑  | PF1↑  |
+|------------------|-------|-----------|---------|-------|-------|-------|
+| ResNet34 [5]     | 0.520 | 829       | 0.189   | 5.698 | —     | —     |
+| PpaCAD [14]      | 0.562 | 601       | 0.272   | 6.600 | —     | —     |
+| Vitruvion [12]   | 0.560 | 608       | 0.190   | 5.568 | 0.242 | 0.710 |
+| PICASSO [7]      | 0.809 | 199       | 0.067   | 0.739 | —     | —     |
+| PHT-CAD          | **0.923** | **50**    | **0.003** | **0.106** | **0.860** | **0.910** |
