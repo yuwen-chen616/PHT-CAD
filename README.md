@@ -20,7 +20,8 @@ We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the
 * 
 ## Demo
  We release an inference web UI for the community to use our model. The web UI can be accessed at: [WebUI](https://5210-61-169-124-162.ngrok-free.app/). Some test results based on our model are shown in the following figure.
-
+![webui1](images/webui1.png)
+![webui2](images/webui2.png)
 
 ## Performance
 
