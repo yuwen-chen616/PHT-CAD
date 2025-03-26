@@ -16,10 +16,10 @@ You can view our paper through the following link: [Paper](https://arxiv.org/abs
 We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the annotation layer. ParaCAD includes 10.26 million annotated engineering drawings for training and 3,000 real-world industrial drawings for test. The samples for test exhibit higher topological complexity and adhere to physical constraints. The dataset can be accessed here: [Dataset](https://www.modelscope.cn/datasets/yuwenbonnie/ParaCAD-Dataset/summary)
 
 ## News and Updates
-2025.03.26 We release an inference web UI for the community to use our model. The web UI can be accessed at: [WebUI](https://5210-61-169-124-162.ngrok-free.app/). Some test results based on our model are shown in the following figure.
-
+* 2025.03.26 🔥 We release an inference web UI.
+* 
 ## Demo
-
+ We release an inference web UI for the community to use our model. The web UI can be accessed at: [WebUI](https://5210-61-169-124-162.ngrok-free.app/). Some test results based on our model are shown in the following figure.
 
 
 ## Performance
