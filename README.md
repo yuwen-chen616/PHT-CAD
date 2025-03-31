@@ -64,4 +64,10 @@ We present ParaCAD, the first large-scale 2D PPA benchmark that incorporates the
 If you find this project useful, please consider citing our work:
 
 ```bibtex
+@article{pht-cad,
+  title={PHT-CAD: Efficient CAD Parametric Primitive Analysis with Progressive Hierarchical Tuning},
+  author={Niu, Ke and Chen, Yuwen and Yu, Haiyang and Chen, Zhuofan and Que, Xianghui and Li, Bin and Xue, Xiangyang},
+  journal={arXiv preprint arXiv:2503.18147},
+  year={2025}
+}
 
